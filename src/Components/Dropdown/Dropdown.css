@@ -1,0 +1,21 @@
+.Dropdown {
+  position: relative;
+}
+
+.Dropdown-box {
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  background: blue;
+  color: black;
+  border: 2px solid #aa8888;
+  border-top: none;
+  padding: 2px;
+  font-size: 14pt;
+  margin: 0;
+  width: 200px;
+  margin-top: -2px;
+  transition: max-height 2s;
+  overflow: auto;
+  height: 150px
+}
